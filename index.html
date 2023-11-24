@@ -1,11 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <h1>HOLa</h1>
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Mi Página con Estilos y Grid Bootstrap 5</title>
+        <!-- Enlace a Bootstrap CSS y estilos adicionales -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" integrity="sha384-GLhlTQ8iK2+j4MYWz83PzPq8r3uHQImN7viAiSgxCG0xlPKFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <style>
+          /* Estilos personalizados aquí */
+          body {
+            background-color: #f8f9fa;
+          }
+      
+          .container-custom {
+            background-color: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            margin-top: 20px;
+          }
+      
+          .btn-custom {
+            background-color: #007bff;
+            color: #ffffff;
+          }
+      
+          .btn-custom:hover {
+            background-color: #0056b3;
+          }
+        </style>
+      </head>
+      <body>
+      
+      <!-- Contenido principal con sistema de rejilla -->
+      <div class="container-fluid">
+        <div class="row justify-content-center">
+          <div class="col-md-8">
+            <div class="container-custom">
+              <h1 class="text-center">Bienvenido a Mi Página</h1>
+              <p class="lead text-center">Esta es una página de ejemplo con estilos personalizados y sistema de rejilla.</p>
+              <div class="text-center">
+                <button class="btn btn-custom">Botón Personalizado</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Scripts de Bootstrap y cualquier otro script adicional -->
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-e0qVp8B3aLqEWKGxJ8d0Dj8UuO+xrP4tT0iIgAxJ7n0IbbVdS6L3e3I1TsnK+29" crossorigin="anonymous"></script>
+      </body>
+      
 </html>
+
